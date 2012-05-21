@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+    <script src="/media/CodeMirror-2.24/lib/codemirror.js"></script>
+    <link rel="stylesheet" href="/media/CodeMirror-2.24/lib/codemirror.css">
+    <script src="/media/CodeMirror-2.24/mode/clike/clike.js"></script>
+    <form action="/upload/code" method="POST">
+        {% csrf_token %}
+        <textarea id="code" name="code">
+/* Java demo code */
+public class Test {
+    public static Object execute(){
+        return new java.util.Random().nextInt();
+    }
+}
+        </textarea>
+    <input type="submit" value="Submit">
+    </form>
+
+    <div>
+        Source: {{ source }}
+    </div>
+    <div>
+        Result: {{ result }}
+    </div>
+
+    <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+            lineNumbers:true,
+            matchBrackets:true,
+            mode:"text/x-java"
+        });
+    </script>
+
+
+
+{% endblock %}
+

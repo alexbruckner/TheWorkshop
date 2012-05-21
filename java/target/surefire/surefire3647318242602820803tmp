@@ -1,0 +1,6 @@
+#surefire
+#Sun May 20 12:10:24 BST 2012
+user.dir=C\:\\Users\\alexb\\django\\workshop\\java
+exec.mainClass=com.bru.workshop.Application
+localRepository=C\:\\Users\\alexb\\.m2\\repository
+basedir=C\:\\Users\\alexb\\django\\workshop\\java

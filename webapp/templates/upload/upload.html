@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <form action="{{ upload_url }}" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <table>{{ form }}</table>
+        <input type="submit" value="Upload"/>
+    </form>
+    {% for upload in uploaded %}
+        <a href="{{ upload }}"> {{ upload.file }}</a><br/>
+    {% endfor %}
+    <br/>
+    {{ test_string }}
+{% endblock %}
+

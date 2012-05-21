@@ -1,0 +1,28 @@
+#surefire
+#Sun May 20 12:10:24 BST 2012
+testClassesDirectory=C\:\\Users\\alexb\\django\\workshop\\java\\target\\test-classes
+classPathUrl.2=C\:\\Users\\alexb\\.m2\\repository\\py4j\\py4j\\1.0\\py4j-1.0.jar
+useManifestOnlyJar=true
+classPathUrl.1=C\:\\Users\\alexb\\django\\workshop\\java\\target\\classes
+reportsDirectory=C\:\\Users\\alexb\\django\\workshop\\java\\target\\surefire-reports
+classPathUrl.0=C\:\\Users\\alexb\\django\\workshop\\java\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=C\:\\Users\\alexb\\django\\workshop\\java\\src\\test\\java
+surefireClassPathUrl.1=C\:\\Users\\alexb\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.2\\surefire-api-2.7.2.jar
+surefireClassPathUrl.0=C\:\\Users\\alexb\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit3\\2.7.2\\surefire-junit3-2.7.2.jar
+runOrder=filesystem
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=C\:\\Users\\alexb\\django\\workshop\\java\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+includes0=**/Test*.java
+childDelegation=false
