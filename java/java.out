@@ -1,0 +1,75 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Unnamed - java:java:jar:1.0
+[INFO]    task-segment: [compile, exec:java]
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom
+853/?2559/?4028/?      
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
+816/?3159/?6575/?8433/?      
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom
+1541/?2907/?      
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.jar
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar
+907/?1487/?2000/?2579/?3152/?3737/?4298/?4865/?5501/?6076/?6588/?7099/?7611/?8123/?8713/?9377/?9889/?10401/?10912/?11425/?11937/?12448/?12520/?13130/?13725/?14149/?14661/?15172/?15753/?16339/?16926/?17488/?17999/?18022/?18046/?18546/?19057/?19569/?20082/?20592/?21158/?21670/?22251/?22833/?23345/?23930/?24452/?25096/?25739/?26397/?26908/?27489/?28001/?28511/?29022/?29535/?30106/?30702/?31214/?31726/?32238/?32750/?33262/?33845/?34357/?34868/?35444/?35956/?36397/?36905/?37414/?37923/?38506/?39014/?39591/?40101/?40610/?41119/?41628/?42150/?42704/?43282/?43804/?44564/?45072/?46732/?49961/?51008/?       
+730/?1262/?1797/?2309/?2821/?2885/?3397/?3909/?4420/?4931/?5442/?6003/?6515/?7026/?7538/?8049/?8561/?8723/?9235/?9746/?10180/?10810/?11385/?11958/?12547/?13135/?13647/?14229/?14740/?15251/?15767/?16344/?16856/?17447/?17969/?18040/?18551/?19138/?19650/?20232/?20743/?21254/?21765/?22279/?22837/?23348/?23858/?24418/?24927/?25492/?26003/?26572/?27149/?27660/?28169/?28897/?29409/?29994/?33035/?33179/?       
+[INFO] [resources:resources {execution: default-resources}]
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/alex/IdeaProjects/TheWorkshop/java/src/main/resources
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.5.3/plexus-compiler-api-1.5.3.pom
+624/?     
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/1.5.3/plexus-compiler-1.5.3.pom
+1454/?      
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.1.6/plexus-components-1.1.6.pom
+1333/?1888/?      
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.5.3/plexus-compiler-manager-1.5.3.pom
+634/?     
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.5.3/plexus-compiler-javac-1.5.3.pom
+797/?     
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/1.5.3/plexus-compilers-1.5.3.pom
+1440/?4273/?7538/?7648/?      
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.0.5/plexus-utils-1.0.5.pom
+918/?     
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom
+723/?     
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar
+723/?1236/?1747/?2258/?2806/?3318/?3830/?4319/?4832/?5344/?5894/?6405/?6917/?7253/?7766/?8277/?8701/?9251/?9860/?10285/?10796/?11308/?11732/?12244/?12755/?13267/?13778/?14338/?14673/?15224/?15736/?16248/?16761/?16911/?16935/?17389/?17900/?18458/?18969/?19480/?19992/?20702/?21214/?21725/?22288/?22800/?23361/?23714/?24274/?24828/?25252/?25762/?26274/?26786/?27297/?27865/?28476/?29032/?29544/?29792/?30400/?30912/?31424/?31993/?32548/?33060/?33621/?34133/?34641/?35153/?35665/?36177/?36689/?37201/?37273/?37785/?38297/?38721/?39233/?39745/?40257/?40769/?41281/?41617/?42129/?42641/?43153/?43665/?44177/?44513/?45025/?45537/?46049/?46561/?47073/?47585/?48097/?48609/?49121/?49633/?50145/?50488/?50512/?50970/?51483/?51994/?52506/?53019/?53531/?54042/?54554/?55107/?55618/?56129/?56688/?57313/?57825/?58337/?58849/?59361/?59873/?60385/?60897/?61409/?61921/?62433/?62944/?63457/?63968/?64480/?64992/?65504/?66063/?66575/?67137/?67648/?68145/?68655/?69167/?69721/?70234/?70746/?71259/?71771/?72283/?72284/?72795/?73347/?73859/?74371/?74924/?75481/?75993/?76547/?77058/?77570/?78082/?78593/?79105/?79617/?80129/?80641/?81208/?81720/?82232/?82743/?83255/?83742/?83766/?84334/?84834/?85391/?85903/?86472/?86984/?87553/?88112/?88635/?89191/?89753/?90264/?90818/?91329/?91841/?92353/?92864/?93414/?93926/?94438/?94950/?95510/?96022/?96143/?96654/?97166/?97590/?98102/?98711/?99223/?99735/?100247/?100583/?101095/?101607/?102060/?102571/?103094/?103637/?104148/?104660/?105172/?105686/?106199/?106710/?107222/?107734/?108246/?108758/?109270/?109782/?110293/?110806/?111318/?111895/?112462/?112974/?113533/?114100/?114612/?115124/?115635/?116148/?116659/?117264/?117387/?117411/?117923/?118483/?118935/?119448/?119959/?120471/?120983/?121495/?122007/?122519/?123063/?123612/?124123/?124636/?125149/?125661/?126174/?126684/?127196/?127708/?128220/?128733/?129245/?129756/?130268/?130780/?131332/?131896/?132409/?132980/?133531/?134044/?134556/?135069/?135526/?136037/?136549/?137061/?137573/?138084/?138597/?139110/?139622/?140133/?140645/?141156/?141613/?142125/?142638/?143278/?143790/?144301/?144860/?145433/?145944/?146498/?147010/?147522/?148070/?148581/?149093/?149605/?150116/?150612/?151124/?151636/?152138/?152613/?153115/?153444/?154062/?154624/?155233/?155736/?156748/?158750/?160676/?163122/?163803/?        
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.5.3/plexus-compiler-api-1.5.3.jar
+851/?1362/?1873/?2383/?2893/?3403/?3961/?4524/?5086/?5596/?6106/?6616/?7129/?7691/?8259/?8823/?9392/?9902/?10483/?11062/?11648/?12229/?12740/?13329/?13919/?14495/?15005/?15400/?15949/?16665/?18009/?19868/?       
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.5.3/plexus-compiler-manager-1.5.3.jar
+744/?1307/?1955/?2526/?3266/?4123/?5297/?      
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.5.3/plexus-compiler-javac-1.5.3.jar
+814/?1361/?1922/?2432/?3002/?3067/?3580/?4091/?4604/?5117/?5628/?6139/?6652/?7162/?7410/?7924/?8436/?8858/?9422/?9984/?10569/?11080/?11810/?12058/?14085/?       
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Nothing to compile - all classes are up to date
+[INFO] Preparing exec:java
+[INFO] No goals needed for project - skipping
+[INFO] [exec:java {execution: default-cli}]
+starting application...
+application started.
+Compiling class Test:
+/* Java demo code */
+public class Test {
+    public static Object execute(){
+        return new java.util.Random().nextInt();
+    }
+}
+        
+Calling method execute.adding 2 to 4
+Compiling class Test:
+/* Java demo code */
+public class Test {
+    public static Object execute(){
+        return new java.util.Random().nextInt();
+    }
+}
+        
+Calling method execute.Compiling class Test:
+/* Java demo code */
+public class Test {
+    public static Object execute(){
+        return new java.util.Random().nextInt();
+    }
+}
+        
+Calling method execute.adding 7 to 2
