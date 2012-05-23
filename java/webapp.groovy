@@ -1,1 +1,1 @@
-print "Hello"
+rint "Hello"

@@ -31,18 +31,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <!-- run the django webapp -->
-            <plugin>
-                <groupId>org.codehaus.gmaven</groupId>
-                <artifactId>gmaven-plugin</artifactId>
-                <version>1.3</version>
-                <configuration>
-                    <source>
-                            "/apache-maven-3.0.3/bin/mvn.bat compile exec:java -Dexec.mainClass=com.bru.workshop.Application".execute()
-                            "python ../webapp/manage.py runserver 0.0.0.0:8080".execute()
-                    </source>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 </project>
