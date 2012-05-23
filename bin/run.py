@@ -7,5 +7,3 @@ if __name__ == "__main__":
     django_thread.start()
     java_thread = Thread(target = run_java)
     java_thread .start()
-    java_thread.join()
-    django_thread.join()
