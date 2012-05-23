@@ -1,7 +1,7 @@
 import subprocess
 
 def run_django():
-    process = subprocess.Popen("python manage.py runserver 0.0.0.0:8000", cwd="/Users/alexb/django/workshop/webapp", stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    process = subprocess.Popen("python manage.py runserver 0.0.0.0:8000", cwd="../webapp", stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     while True:
         line = process.stdout.readline()
         if line != '':

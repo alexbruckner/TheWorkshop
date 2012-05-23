@@ -1,7 +1,10 @@
-import subprocess
+import os, subprocess
 
 def run_java():
-    process = subprocess.Popen("/apache-maven-3.0.3/bin/mvn.bat compile exec:java -Dexec.mainClass=com.bru.workshop.Application", cwd="/Users/alexb/django/workshop/java", stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    command = "%s compile exec:java -Dexec.mainClass=com.bru.workshop.Application" % os.environ.get('MAVEN')
+    working_dir = os.path.join(os.path.abspath(os.path.dirname('../..')), 'java')
+    print "command: %s, cwd: %s" % (command, working_dir)
+    process = subprocess.Popen(command, cwd=working_dir, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     while True:
         line = process.stdout.readline()
         if line != '':
@@ -11,3 +14,4 @@ def run_java():
 
 if __name__ == "__main__":
     run_java()
+
