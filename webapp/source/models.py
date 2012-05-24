@@ -9,7 +9,7 @@ class Source(models.Model):
     source = models.CharField(max_length=1000)
 
     def __unicode__(self):
-        return self.name
+        return self.source
 
 class SourceForm(forms.ModelForm):
     source = forms.CharField( widget=forms.Textarea )

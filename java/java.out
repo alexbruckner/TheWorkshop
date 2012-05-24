@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Unnamed - java:java:jar:1.0
+[INFO]    task-segment: [compile, exec:java]
+[INFO] ------------------------------------------------------------------------
+[INFO] [resources:resources {execution: default-resources}]
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/alex/IdeaProjects/TheWorkshop/java/src/main/resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Nothing to compile - all classes are up to date
+[INFO] Preparing exec:java
+[INFO] No goals needed for project - skipping
+[INFO] [exec:java {execution: default-cli}]
+starting application...
+application started.
+adding 1 to 6
+Compiling class Test:
+/* Java demo code */
+public class Test {
+    public static Object execute(){
+        return new java.util.Random().nextInt();
+    }
+}
+        
+Calling method execute.Compiling class Test:
+/* Java demo code */
+public class Test {
+    public static Object execute(){
+        return "I love Sabina!!!!!!";
+    }
+}
+        
+Calling method execute.Compiling class Test:
+/* Java demo code */
+public class Test {
+    public static Object execute(){
+        return "I love Sabina even moreeeeeeeeeeeeeeee!!!!!!";
+    }
+}
+        
+Calling method execute.adding 1 to 4
+adding 8 to 3
