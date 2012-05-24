@@ -1,0 +1,5 @@
+cd webapp
+start nohup env\webapp\Scripts\python.exe manage.py runserver 0.0.0.0:8000 > django.out 2>&1&
+
+cd ..\java
+start nohup mvn compile exec:java -Dexec.mainClass=com.bru.workshop.Application > java.out 2>&1&
