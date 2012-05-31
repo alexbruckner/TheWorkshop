@@ -21,6 +21,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="Maven: py4j:py4j:1.0" level="project" />
+    <orderEntry type="library" name="Maven: py4j:py4j:1.0" level="project" />
   </component>
   <component name="org.twodividedbyzero.idea.findbugs">
     <option name="_basePreferences">
