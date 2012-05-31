@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a686c90b-dd64-4fee-a5b3-ef28e279bc81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__py4j_py4j_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/webapp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/java.iml" afterPath="$PROJECT_DIR$/java/java.iml" />
-    </list>
+    <list default="true" id="a686c90b-dd64-4fee-a5b3-ef28e279bc81" name="Default" comment="" />
     <ignored path="TheWorkshop.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,7 +61,7 @@
       <file leaf-file-name="Application.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/main/java/com/bru/workshop/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="21" selection-start="812" selection-end="812" vertical-scroll-proportion="1.4256198">
+            <state line="12" column="29" selection-start="218" selection-end="218" vertical-scroll-proportion="0.55785125">
               <folding />
             </state>
           </provider>
@@ -492,7 +487,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/java/com/bru/workshop/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="21" selection-start="812" selection-end="812" vertical-scroll-proportion="1.4256198">
+        <state line="12" column="29" selection-start="218" selection-end="218" vertical-scroll-proportion="0.55785125">
           <folding />
         </state>
       </provider>
