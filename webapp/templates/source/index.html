@@ -5,13 +5,9 @@
     <script src="/media/CodeMirror-2.24/mode/clike/clike.js"></script>
     <form action="/upload/code" method="POST">
         {% csrf_token %}
-        <textarea id="code" name="code">
-/* Java demo code */
-public class Test {
-    public static Object execute(){
-        return new java.util.Random().nextInt();
-    }
-}
+        User: <input name="user" value="{{ user }}"/><br/>
+        Code: <textarea id="code" name="code">
+        {{ source }}
         </textarea>
     <input type="submit" value="Submit">
     </form>

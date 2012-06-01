@@ -28,6 +28,21 @@ def upload_handler(request):
 
 def upload_code(request):
     source = request.POST['code']
+    user = request.POST['user']
+
+    print source
+    print user
+
+    if len(source.strip()) == 0:
+        source = '''
+/* Java demo code */
+public class Test {
+    public static Object execute(){
+        return new java.util.Random().nextInt();
+    }
+}
+'''
+
     return direct_to_template(request, 'source/index.html',
             {'source' : source,
              'result' : java_compile_and_execute(source),
