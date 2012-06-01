@@ -4,6 +4,7 @@ from filetransfers.api import prepare_upload
 from django.views.generic.simple import direct_to_template
 from django.http import HttpResponseRedirect
 from models import UploadForm
+from source.models import Source
 
 #http://www.allbuttonspressed.com/projects/django-filetransfers
 from upload.models import UploadModel
@@ -30,9 +31,6 @@ def upload_code(request):
     source = request.POST['code']
     user = request.POST['user']
 
-    print source
-    print user
-
     if len(source.strip()) == 0:
         source = '''
 /* Java demo code */
@@ -42,6 +40,11 @@ public class Test {
     }
 }
 '''
+    print source
+    print user
+
+    sourceModel = Source(user=user, source=source)
+    sourceModel.save()
 
     return direct_to_template(request, 'source/index.html',
             {'source' : source,

@@ -5,6 +5,7 @@ from django.contrib import admin
 # Create your models here.
 
 class Source(models.Model):
+
     user = models.CharField(max_length=50)
     source = models.CharField(max_length=1000)
 
