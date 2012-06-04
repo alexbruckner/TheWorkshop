@@ -13,7 +13,6 @@
 [INFO] [exec:java {execution: default-cli}]
 starting application...
 application started.
-adding 1 to 6
 Compiling class Test:
 /* Java demo code */
 public class Test {
@@ -22,21 +21,5 @@ public class Test {
     }
 }
         
-Calling method execute.Compiling class Test:
-/* Java demo code */
-public class Test {
-    public static Object execute(){
-        return "I love Sabina!!!!!!";
-    }
-}
-        
-Calling method execute.Compiling class Test:
-/* Java demo code */
-public class Test {
-    public static Object execute(){
-        return "I love Sabina even moreeeeeeeeeeeeeeee!!!!!!";
-    }
-}
-        
-Calling method execute.adding 1 to 4
-adding 8 to 3
+Calling method execute.adding 8 to 7
+adding 9 to 7
