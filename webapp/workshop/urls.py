@@ -18,6 +18,7 @@ urlpatterns = patterns('',
 
     # code
     url(r'^source/$', 'source.views.index'),
+    url(r'^source/login$', 'source.views.login'),
 
     # admin
     url(r'^admin/', include(admin.site.urls)),

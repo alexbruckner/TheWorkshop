@@ -3,9 +3,25 @@
     <script src="/media/CodeMirror-2.24/lib/codemirror.js"></script>
     <link rel="stylesheet" href="/media/CodeMirror-2.24/lib/codemirror.css">
     <script src="/media/CodeMirror-2.24/mode/clike/clike.js"></script>
-    <form action="/upload/code" method="POST">
+
+
+    <form action="/source/login" method="POST">
         {% csrf_token %}
-        User: <input name="user" value="{{ user }}"/><br/>
+        {% if login %}
+            <input type="submit" name="submit" value="logout"/>
+        {% else %}
+            User: <input name="name" value="{{ user }}"/>
+            Password: <input name="password"/>
+            <input type="submit" name="submit" value="register"/>
+            <input type="submit" name="submit" value="login"/>
+        {% endif %}
+    </form>
+
+<br/>
+{% if login %}
+<form action="/upload/code" method="POST">
+        {% csrf_token %}
+        User: {{ login }} <br/>
         Code: <textarea id="code" name="code">
         {{ source }}
         </textarea>
@@ -26,7 +42,7 @@
             mode:"text/x-java"
         });
     </script>
-
+{% endif %}
 
 
 {% endblock %}
